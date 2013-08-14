@@ -20,10 +20,17 @@ int main(){
   // So, this means that String is an object and string is a variable? That's the way it works in Java. 
 
   //query();
-  std::string doing;
-  std::cout << "Hello World!" << std::endl;
-  std::cin >> doing;
-  std::cout << doing << std::endl;
+  int first;
+  int second;
+  std::string operator;
+  int answer;
+//std::cout << "Hello World!" << std::endl;
+  std::cin << first;
+  std::cin << operator;
+  std::cin << second;
+  if (operator == "+")
+    answer = first + second
+  std::cout << answer << std::endl;
   return 0;
 }
 
