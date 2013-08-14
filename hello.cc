@@ -25,17 +25,17 @@ int main(){
         // Ask if the above doesn't make sense.
 
 
-  std::int first;
-  std::int second;
-  std::string operator;
-  std::int answer;
+  std::int first;//int is a built in type, std:: not needed and not allowed
+  std::int second; //int is a built in type, std:: not needed and not allowed
+  std::string operator; //operator is a C++ keyword, perhaps call it operation
+  std::int answer; //int is a built in type, std:: not needed and not allowed
 //std::cout << "Hello World!" << std::endl;
-  std::cin << first;
+  std::cin << first; //This won't compile, write std::cin>>first instead
   std::cin << operator;
   std::cin << second;
   if (operator == "+")
     answer = first + second;
-  std::cout >> answer << std::endl;
+  std::cout >> answer << std::endl; //for output use << and for input use >>
   return 0;
 }
 
