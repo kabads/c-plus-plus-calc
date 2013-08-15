@@ -35,6 +35,12 @@ int main(){
   std::cin >> second;
   if (operation == "+")
     answer = first + second;
+  if (operation == "-")
+    answer = first - second;
+  if (operation == "*")
+    answer = first * second;
+  if (operation == "/")
+    answer = first / second;
   std::cout << answer << std::endl; //for output use << and for input use >>
   return 0;
 }
