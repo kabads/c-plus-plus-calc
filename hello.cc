@@ -25,12 +25,12 @@ int main(){
         // Ask if the above doesn't make sense.
 
 
-  int first;//int is a built in type, std:: not needed and not allowed
-  int second; //int is a built in type, std:: not needed and not allowed
-  std::string operation; //operator is a C++ keyword, perhaps call it operation
-  int answer; //int is a built in type, std:: not needed and not allowed
+  int first;
+  int second;
+  std::string operation;
+  int answer;
 //std::cout << "Hello World!" << std::endl;
-  std::cin >> first; //This won't compile, write std::cin>>first instead
+  std::cin >> first;
   std::cin >> operation;
   std::cin >> second;
   if (operation == "+")
@@ -41,7 +41,7 @@ int main(){
     answer = first * second;
   if (operation == "/")
     answer = first / second;
-  std::cout << answer << std::endl; //for output use << and for input use >>
+  std::cout << answer << std::endl; //how about using '\n' instead of std::endl
   return 0;
 }
 
